@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "/css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "/stylesheet.css">
+</head>
+<body>
+      <section style="background-color:rgb(249, 225, 178)">
+        <div>
+          <nav class="navbar navbar-light bg-light">
+            <form class="form-inline">
+              <a href="index.html"><button  id="hrefHome" class="btn btn-sm btn-outline-secondary" type="button"><i class="fa-solid fa-house"></i></button></a>
+            </form>
+          </nav>
+          
+        </div>
+        <div>
+        <h1 id = "dropUscolour" style="text-align:center ;">Drop Us Mail</h1> 
+        <div class="d-flex justify-content-evenly" id = "funBackround" > 
+            <div style="padding-top:100px; padding-bottom:50px;">
+               <div id="map" ></div>
+            </div>
+            <div class="mapform">
+                <div  class="d-flex flex-column bd-highlight mb-3" style="padding-left: 0px;">
+                    <h3 class="col">Max Quillings</h3>
+                    <hr id="funHr">
+                    <!-- <address class="row"> -->
+                      <div class="row" style="margin: auto;">
+                        Achelu North, Neervely.
+                        <span class="row">Phone:- 0763478954 </span>
+                        <span class="row"> Email:-sajumax08@gmail.com </span>  
+                      </div>
+                    <!-- </address> -->
+                </div>
+            <div class="d-flex flex-column bd-highlight mb-3">
+                <form action="" onsubmit="return validate()">
+                    <h4>Want to Know More??Drop Us a Mail.</h4>
+                    <div>
+                    <input type="text" placeholder="First Name" id="1stName">
+                    <input type="text" placeholder="Last Name" id="lastName" ><br><br>
+                        <div class="d-flex justify-content-between" width="100px">
+                            <p id="t1" class="p-2 "></p>
+                            <p id="t2" class="p-2 "></p>
+                        </div>
+                    </div>
+                        <div>
+                            <input type="text" placeholder="Email" id="email">
+                            <input type="text" placeholder="Contact Number" id="phone"><br><br>
+                            <div class="d-flex justify-content-between order" width="200px">
+                                <div class="p-2 order-0" width="auto"><p id="t3" ></p></div>
+                                <div class="p-2 order-1"><p id="t4" ></p></div>
+                            </div>
+                        </div>
+                        <textarea name="message" id="t1" cols="30" rows="10" placeholder="Your msg here"></textarea><br><br>
+                        <input type="submit" value="send" id="submit-form">
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+      </section>
+    <div id = "funFooter" style="background-color: rgb(169, 168, 168);">
+      <p>©copyright<strong>2022</strong>rights reserved |<span style="margin-left: 1250px;"> designed By:<strong>Sajutharan_Sri</strong></span><button style="margin-left: 10px;"><a href="index.html">⇑</a></button></p>
+     </div>
+    <script src = "/home.js"></script> 
+    <script src = "/js/bootstrap.min.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbBTsw3a0xr_gDG89PMwd99dpxoE-y45A&callback=initMap"></script>
+    <script src="https://kit.fontawesome.com/8475c6e1d5.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,290 @@
+#navbarNavDropdown {
+    margin-left: 1000px;
+  }
+
+  #img1 {
+    float: right
+  }
+
+  #bgcolor {
+    background-color: rgb(183, 198, 218);
+    max-width: 100%;
+  }
+
+  #img2 {
+    float: left;
+  }
+
+  #para {
+    float: right;
+  }
+
+  #para1 {
+    float: left;
+  }
+
+  #sec4nav {
+    margin-left: 800px;
+  }
+
+  .nav-link {
+    color: rgb(0, 0, 0); 
+  }
+  .nav-link.active{
+    color: blue;
+  }
+  #h5h3{
+    text-align: center;
+  }
+  #section6{
+    text-align: center;
+    background-color: rgba(243, 241, 241, 0.829);
+  }
+  #sec5h5h3{
+    text-align: center;
+  }
+  #grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding:0px;
+  /* grid-gap: 50px; */
+  /* column-gap:10px;
+   /* row-gap: 10px; */
+  justify-content: center;
+  gap: 38px;
+  
+}
+.gridimage:hover{
+  transform:scale(1.1);
+  
+}
+
+.gridimage {
+background-color: rgba(253, 246, 246, 0.8);
+/* border: 1px solid rgba(0, 0, 0, 0.8); */
+padding:5px;
+text-align: center;
+/* width:75%; */
+/* height:75%; */
+border-radius: 25px;
+
+}
+.team{
+background-color: rgba(255, 255, 255, 0.8);
+border: 0px solid rgba(0, 0, 0, 0.8);
+border-radius: 15px;
+object-fit:fill;
+padding: 5PX 5PX 5px 5PX ;
+} 
+#gridteam {
+display: flex;
+flex-flow:row;
+justify-content:center;
+object-fit:contain;
+padding:5px 5px 5px 5px;
+column-gap: 35px;
+ 
+}
+.logo{
+background-color: rgba(228, 194, 194, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+border-radius: 10px;
+object-fit:fill;
+padding: 5PX 5PX 5px 5PX ;
+}
+#sec7id1{
+display: grid;
+grid-template-columns: auto auto auto auto;
+margin-top: 50px;
+margin-left: 30px;
+}
+#footer{
+    background-color: rgb(194, 186, 176);
+}
+#set1{
+  border:solid 1px;
+  margin-left: 220px;
+  margin-right: 220px;
+
+}
+#button1,#button2{
+  border-radius: 15px;
+}
+.sec6{
+  column-gap:50px;
+  padding:15px;
+  /* margin-block-end: auto; */
+  
+}
+#footerbg{
+  background-color: lightgray
+}
+
+/* carosual */
+
+
+.pic {
+
+  width:90%;
+
+  height: 70%;
+
+  display: flex;
+
+  justify-content: right;
+  
+  margin-right:0px;
+
+
+}
+
+.pic img{
+
+  width:100%;
+
+  height: 100%;
+
+}
+.pic{
+  float: right;
+
+  padding-right: 15px;
+}
+.sec2carous{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+}
+/* map style */
+.mapform{
+  padding-top: 100px;
+  padding-bottom:100px;
+}
+#map {
+  height: 600px;
+  width: 600px;
+}
+
+/* map style end */
+/* map form style start */
+#submit-form{
+  background-color: rgb(13, 137, 144);
+  color: white;
+  border-radius: 20px;
+  font-size: 25px;
+  width: 150px;
+}
+#submit-form:hover{
+  background-color: rgb(9, 18, 73) ;
+}
+
+btn btn-light.active{
+  color: blue;
+}
+#dropUscolour{
+  color:rgb(84, 83, 83);
+}
+#funFooter{
+  margin-bottom:-105px;
+}
+
+.funact.active{
+color: blue;
+}
+.funact:hover{
+  color: blue;
+}
+/* #funBackround{
+  background-color: rgb(239, 223, 166);
+} */
+#funHr{
+  color:rgb(0, 0, 0);
+  height: 3px;
+}
+/* 404 error */
+#err_para {
+  margin-top: 12%;
+  margin-bottom: 25%;
+  margin-left: 28%;
+  margin-right: 22%;
+}
+#funNav{
+  margin-left: 12%;
+  color: blue;
+  
+}
+.funNav{
+  padding-top: -3rem;
+}
+#hrefHome{
+  margin-left: 1550px;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+/* .animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+} */
+/* animation */
+/* #myImage {
+  position: relative;
+  left: 0px;
+  top: 0px;
+} */
+
+/* animation */
+
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  /* background: yellow; */
+}
+#myAnimation {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  /* background-color: red; */
+}
